@@ -618,6 +618,7 @@ Below is a list of all available validation rules and their function:
 [Filled](#rule-filled)
 [Greater Than](#rule-gt)
 [Greater Than Or Equal](#rule-gte)
+[Hash Equals](#rule-hash-equals)
 [Image (File)](#rule-image)
 [In](#rule-in)
 [In Array](#rule-in-array)
@@ -882,6 +883,11 @@ The field under validation must be greater than the given _field_. The two field
 #### gte:_field_
 
 The field under validation must be greater than or equal to the given _field_. The two fields must be of the same type. Strings, numerics, arrays, and files are evaluated using the same conventions as the [`size`](#rule-size) rule.
+
+<a name="rule-hash-equals"></a>
+#### hash_equals:_hash_
+
+The field under validation must match the hash. 
 
 <a name="rule-image"></a>
 #### image
